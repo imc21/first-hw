@@ -5,12 +5,13 @@ public class NewClass {
         
         
         System.out.println("List of even numbers from 0-100");
-        
-        for(int i = 0; i <= 100; i++)
+        //print statement to begin the list
+        for(int i = 0; i <= 100; i++)//conditions for the for loop
         {
-            if (i % 2 ==0)
+            if (i % 2 ==0)//checks to see if the number is even
             {
                 System.out.println(i);
+                //if even, the number will be printed. if not even, skipped.
             }
         
         
